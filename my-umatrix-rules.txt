@@ -20,7 +20,9 @@ referrer-spoof: behind-the-scene false
 * cloudflare.com * allow
 * fonts.googleapis.com * allow
 * github.io * allow
+* googlevideo.com * allow
 * gstatic.com * allow
+* jquery.com * allow
 * youtube.com * allow
 10minutemail.com * frame inherit
 10minutemail.com ajax.googleapis.com * allow
@@ -76,7 +78,6 @@ alphabooks.vn bizweb.vn * allow
 alphabooks.vn bizwebapps.vn * allow
 alphabooks.vn bootstrapcdn.com * allow
 alphabooks.vn dktcdn.net * allow
-alphabooks.vn jquery.com * allow
 alphabooks.vn subiz.com * allow
 amazon.co.jp * frame inherit
 amazon.co.jp amazonaws.com * allow
@@ -120,7 +121,6 @@ bilutv.com daumcdn.net * allow
 bilutv.com facebook.com * allow
 bilutv.com facebook.net * allow
 bilutv.com fbcdn.net * allow
-bilutv.com googlevideo.com * allow
 bilutv.com jwpcdn.com * allow
 binance.com * frame inherit
 binance.com bnbstatic.com * allow
@@ -218,7 +218,6 @@ cognitiveclass.ai boxcloud.com * allow
 cognitiveclass.ai bugsnag.com * allow
 cognitiveclass.ai cloudflare.com * allow
 cognitiveclass.ai google.com * allow
-cognitiveclass.ai googlevideo.com * allow
 cognitiveclass.ai gravatar.com * allow
 cognitiveclass.ai ibm.com * allow
 cognitiveclass.ai jsdelivr.net * allow
@@ -276,7 +275,6 @@ dichung.vn airporttaxi.vn * allow
 dichung.vn dichungtaxi.com * allow
 dichung.vn google.com * allow
 dichung.vn iconarchive.com * allow
-dichung.vn jquery.com * allow
 dichung.vn maps.googleapis.com * allow
 dienmayxanh.com * frame inherit
 dienmayxanh.com tgdd.vn * allow
@@ -313,12 +311,10 @@ easyhere.cf * frame inherit
 easyhere.cf bootstrapcdn.com * allow
 easyhere.cf cloudflare.com * allow
 easyhere.cf google.com * allow
-easyhere.cf jquery.com * allow
 easyhere.tk * frame inherit
 easyhere.tk 123rf.com * allow
 easyhere.tk bootstrapcdn.com * allow
 easyhere.tk fbcdn.net * allow
-easyhere.tk jquery.com * allow
 easyhere.tk messenger.com * allow
 easyhere.tk raw.githubusercontent.com * allow
 easyhere.tk rawgit.com * allow
@@ -332,7 +328,6 @@ edx.org * frame inherit
 edx.org edx-cdn.org * allow
 edx.org edx-video.net * allow
 edx.org google.com * allow
-edx.org googlevideo.com * allow
 edx.org gravatar.com * allow
 edx.org translate.googleapis.com * allow
 edx.org typekit.net * allow
@@ -364,7 +359,6 @@ gamevn.com fbcdn.net * allow
 gamevn.com gfycat.com * allow
 gamevn.com giphy.com * allow
 gamevn.com google.com * allow
-gamevn.com googlevideo.com * allow
 gamevn.com imgur.com * allow
 gamevn.com photobucket.com * allow
 gamevn.com photofacefun.com * allow
@@ -395,7 +389,6 @@ getcloudapp.com * frame inherit
 getcloudapp.com ajax.googleapis.com * allow
 getcloudapp.com cl.ly * allow
 getcloudapp.com daks2k3a4ib2z.cloudfront.net * allow
-getcloudapp.com jquery.com * allow
 getcloudapp.com s3.amazonaws.com * allow
 getcloudapp.com webflow.com * allow
 getlinkaz.com * frame inherit
@@ -413,7 +406,6 @@ github.com avatars3.githubusercontent.com * allow
 github.com braintreegateway.com * allow
 github.com githubapp.com * allow
 github.com google.com * allow
-github.com googlevideo.com * allow
 github.com render.githubusercontent.com * allow
 github.com ytimg.com * allow
 github.com zuora.com * allow
@@ -679,11 +671,9 @@ miui.com translate.googleapis.com * allow
 miuipro.info * frame inherit
 miuipro.info disqus.com * allow
 miuipro.info google.com * allow
-miuipro.info jquery.com * allow
 miuipro.net * frame inherit
 miuipro.net bootstrapcdn.com * allow
 miuipro.net gravatar.com * allow
-miuipro.net jquery.com * allow
 miuipro.net paypalobjects.com * allow
 mmo4me.com ahaclip.com * allow
 mmo4me.com dpstatic.com * allow
@@ -696,7 +686,6 @@ multcloud.com google.com * allow
 mydigitallife.net * frame inherit
 mydigitallife.net google.com * allow
 myip.ms * frame inherit
-myip.ms jquery.com * allow
 myip.ms maps.googleapis.com * allow
 nethd.org * frame inherit
 nethd.org bootstrapcdn.com * allow
@@ -774,7 +763,6 @@ phihungmobile.com w.org * allow
 phimbathu.com * frame inherit
 phimbathu.com cliphub.io * allow
 phimbathu.com google.com * allow
-phimbathu.com googlevideo.com * allow
 phimbathu.com jwpcdn.com * allow
 phimbathu.com jwplayer.com * allow
 phimmoi.com * frame inherit
@@ -786,7 +774,6 @@ phimmoi.com phim3s.net * allow
 phimmoi.net * frame inherit
 phimmoi.net fbcdn.net * allow
 phimmoi.net google.com * allow
-phimmoi.net googlevideo.com * allow
 phimmoi.net storage.googleapis.com * allow
 phoronix.com * frame inherit
 phoronix.com ajax.googleapis.com * allow
@@ -839,7 +826,6 @@ resilio.com digicert.com * allow
 resilio.com drift.com * allow
 resilio.com driftt.com * allow
 resilio.com google.com * allow
-resilio.com jquery.com * allow
 resilio.com licdn.com * allow
 resilio.com salesloft.com * allow
 resilio.com swiftype.com * allow
@@ -897,7 +883,6 @@ spacevim.org gitter.im * allow
 spoj.com * frame inherit
 spoj.com bootstrapcdn.com * allow
 spoj.com google.com * allow
-spoj.com jquery.com * allow
 stackexchange.com * frame inherit
 stackexchange.com ajax.googleapis.com * allow
 stackexchange.com gravatar.com * allow
@@ -915,7 +900,6 @@ taiphimkhoahoc.tk bootstrapcdn.com * allow
 taiphimkhoahoc.tk bp.blogspot.com * allow
 taiphimkhoahoc.tk ggpht.com * allow
 taiphimkhoahoc.tk googleusercontent.com * allow
-taiphimkhoahoc.tk jquery.com * allow
 taiphimkhoahoc.tk jsdelivr.net * allow
 taiphimkhoahoc.tk photobucket.com * allow
 taobao.com * frame inherit
@@ -925,7 +909,6 @@ taobao.com alicdn.com * allow
 taobao.com alipay.com * allow
 taobao.com alipayobjects.com * allow
 taobao.com aliyun.com * allow
-taobao.com jquery.com * allow
 taobao.com seudo.vn * allow
 taobao.com tbcdn.cn * allow
 taobao.com translate.googleapis.com * allow
@@ -938,7 +921,6 @@ telegram.org * frame inherit
 telegram.org t.me * allow
 telegram.org telegram.me * allow
 thegioididong.com * frame inherit
-thegioididong.com googlevideo.com * allow
 thegioididong.com tgdd.vn * allow
 thegioididong.com wurfl.io * allow
 thegioididong.com ytimg.com * allow
@@ -957,7 +939,6 @@ tinhte.vn * frame inherit
 tinhte.vn ajax.googleapis.com * allow
 tinhte.vn fontawesome.com * allow
 tinhte.vn google.com * allow
-tinhte.vn googlevideo.com * allow
 tinhte.vn ytimg.com * allow
 tistory.com * frame inherit
 tistory.com daum.net * allow
@@ -985,7 +966,6 @@ torrentinvites.org postimg.org * allow
 torrentinvites.org yahooapis.com * allow
 torviet.com * frame inherit
 torviet.com google.com * allow
-torviet.com jquery.com * allow
 torviet.com someimage.com * allow
 torviet.com ytimg.com * allow
 tradahacking.vn * frame inherit
@@ -1028,7 +1008,6 @@ uit.edu.vn * frame inherit
 uit.edu.vn ajax.googleapis.com * allow
 unit-conversion.info * frame inherit
 unit-conversion.info bootstrapcdn.com * allow
-unit-conversion.info jquery.com * allow
 uphinhnhanh.com * frame inherit
 uphinhnhanh.com ads3-adnow.com * allow
 uphinhnhanh.com optad360.io * allow
@@ -1126,7 +1105,6 @@ wikipedia.org * frame allow
 wikipedia.org wikimedia.org * allow
 wordpress.com * frame inherit
 wordpress.com google.com * allow
-wordpress.com googlevideo.com * allow
 wordpress.com gravatar.com * allow
 wordpress.com soundcloud.com * allow
 wordpress.com wp.com * allow
@@ -1175,7 +1153,6 @@ youracclaim.com trackjs.com * allow
 youtube.com * frame inherit
 youtube.com ggpht.com * allow
 youtube.com google.com * allow
-youtube.com googlevideo.com * allow
 youtube.com ytimg.com * allow
 yumisoft.blogspot.com * frame inherit
 yumisoft.blogspot.com 123link.pw css block

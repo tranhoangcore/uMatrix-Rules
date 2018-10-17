@@ -23,6 +23,7 @@ referrer-spoof: behind-the-scene false
 * googlevideo.com * allow
 * gstatic.com * allow
 * jquery.com * allow
+* translate.googleapis.com * allow
 * youtube.com * allow
 10minutemail.com * frame inherit
 10minutemail.com ajax.googleapis.com * allow
@@ -41,7 +42,6 @@ referrer-spoof: behind-the-scene false
 4pda.ru * frame inherit
 4pda.ru 4pda.to * allow
 4pda.ru google.com * allow
-4pda.ru translate.googleapis.com * allow
 4pda.ru yandex.ru * allow
 9gag.com * frame inherit
 9gag.com 9cache.com * allow
@@ -62,12 +62,10 @@ aliexpress.com alipay.com * allow
 aliexpress.com alipayobjects.com * allow
 aliexpress.com alipcsec.com * allow
 aliexpress.com aliyun.com * allow
-aliexpress.com translate.googleapis.com * allow
 alipay.com * frame inherit
 alipay.com alibaba.com * allow
 alipay.com alicdn.com * allow
 alipay.com alipayobjects.com * allow
-alipay.com translate.googleapis.com * allow
 alphaart.vn * frame inherit
 alphaart.vn bootstrapcdn.com * allow
 alphaart.vn google.com * allow
@@ -84,7 +82,6 @@ amazon.co.jp amazonaws.com * allow
 amazon.co.jp google.com * allow
 amazon.co.jp media-amazon.com * allow
 amazon.co.jp ssl-images-amazon.com * allow
-amazon.co.jp translate.googleapis.com * allow
 amazon.com * frame inherit
 amazon.com awsstatic.com * allow
 amazon.com d257l1zb7u5fh9.cloudfront.net * allow
@@ -197,7 +194,6 @@ cnbc.com nbcuni.com * allow
 cnbc.com nervoussummer.com * allow
 cnbc.com npttech.com * allow
 cnbc.com tinypass.com * allow
-cnbc.com translate.googleapis.com * allow
 cnbc.com ytimg.com * allow
 codechef.com * frame inherit
 codechef.com google.com * allow
@@ -329,7 +325,6 @@ edx.org edx-cdn.org * allow
 edx.org edx-video.net * allow
 edx.org google.com * allow
 edx.org gravatar.com * allow
-edx.org translate.googleapis.com * allow
 edx.org typekit.net * allow
 edx.org www.googleapis.com * allow
 edx.org ytimg.com * allow
@@ -342,7 +337,6 @@ fado.vn google.com * allow
 fado.vn izicomment.com * allow
 fado.vn media-amazon.com * allow
 fado.vn ssl-images-amazon.com * allow
-fado.vn translate.googleapis.com * allow
 fahasa.com * frame inherit
 fahasa.com accesstrade.vn * allow
 fahasa.com ematicsolutions.com * allow
@@ -425,7 +419,6 @@ google.com content.googleapis.com * allow
 google.com googleusercontent.com * allow
 google.com maps.googleapis.com * allow
 google.com ssl.gstatic.com * allow
-google.com translate.googleapis.com * allow
 googleblog.com * frame inherit
 googleblog.com ajax.googleapis.com * allow
 googleblog.com blogblog.com * allow
@@ -437,7 +430,6 @@ gufengmh.com * frame inherit
 gufengmh.com baidu.com * allow
 gufengmh.com itc.cn * allow
 gufengmh.com sohu.com * allow
-gufengmh.com translate.googleapis.com * allow
 hackerearth.com * frame inherit
 hackerearth.com cloudflare.com * allow
 hackerearth.com go-mpulse.net * allow
@@ -464,7 +456,6 @@ hackerrank.com mxpnl.com * allow
 hackerrank.com ravenjs.com * allow
 hackerrank.com s3.amazonaws.com * allow
 hackerrank.com sentry.io * allow
-hackerrank.com translate.googleapis.com * allow
 hako.re * frame inherit
 hako.re ajax.googleapis.com * allow
 hako.re imgur.com * allow
@@ -623,7 +614,6 @@ live.com sfx.ms * allow
 live.com sharepointonline.com * allow
 m-team.cc * frame inherit
 m-team.cc imgur.com * allow
-m-team.cc translate.googleapis.com * allow
 mail.ru * frame inherit
 mail.ru cldmail.ru * allow
 mail.ru imgsmail.ru * allow
@@ -658,6 +648,9 @@ messenger.com akamaihd.net * allow
 messenger.com facebook.com * allow
 messenger.com facebook.net * allow
 messenger.com fbcdn.net * allow
+mi.com * frame inherit
+mi.com xiaomi.com * allow
+mi.com xiaomi.net * allow
 microsoft.com * frame inherit
 microsoft.com azure.net * allow
 microsoft.com azureedge.net * allow
@@ -667,7 +660,6 @@ microsoftonline.com * frame inherit
 microsoftonline.com microsoftonline-p.com * allow
 miui.com * frame inherit
 miui.com baidu.com * allow
-miui.com translate.googleapis.com * allow
 miuipro.info * frame inherit
 miuipro.info disqus.com * allow
 miuipro.info google.com * allow
@@ -725,7 +717,6 @@ nsaneforums.com google.com * allow
 nsaneforums.com imgur.com * allow
 nsaneforums.com mydigitallife.net * allow
 nsaneforums.com postimg.cc * allow
-nsaneforums.com translate.googleapis.com * allow
 nsaneforums.com twimg.com * allow
 nsaneforums.com upload.ee * allow
 onlinejudge.org * frame inherit
@@ -797,6 +788,9 @@ qq.com gtimg.cn * allow
 qq.com gtimg.com * allow
 qq.com qlogo.cn * allow
 qq.com qpic.cn * allow
+qq.com qqmail.com * allow
+qq.com url.cn * allow
+qq.com weiyun.com * allow
 quantrimang.com * frame inherit
 quantrimang.com google.com * allow
 quora.com * frame inherit
@@ -846,7 +840,6 @@ rutracker.org robinbob.in * allow
 rutracker.org roskomsvoboda.org * allow
 rutracker.org rublacklist.net * allow
 rutracker.org t-ru.org * allow
-rutracker.org translate.googleapis.com * allow
 sbs.co.kr * frame inherit
 sbs.co.kr kakao.com * allow
 sbs.co.kr smartmediarep.com * allow
@@ -888,7 +881,6 @@ stackexchange.com ajax.googleapis.com * allow
 stackexchange.com gravatar.com * allow
 stackexchange.com imgur.com * allow
 stackexchange.com sstatic.net * allow
-stackexchange.com translate.googleapis.com * allow
 steampowered.com * frame inherit
 steampowered.com akamaihd.net * allow
 steampowered.com google.com.vn * allow
@@ -911,7 +903,6 @@ taobao.com alipayobjects.com * allow
 taobao.com aliyun.com * allow
 taobao.com seudo.vn * allow
 taobao.com tbcdn.cn * allow
-taobao.com translate.googleapis.com * allow
 techrum.vn * frame inherit
 techrum.vn bit.ly * allow
 techrum.vn bootstrapcdn.com * allow
@@ -996,6 +987,8 @@ tumblr.com yahoo.com * allow
 tuoitre.vn * frame inherit
 tuoitre.vn d24rtvkqjwgutp.cloudfront.net * allow
 tuoitre.vn mediacdn.vn * allow
+tuoitre.vn sohatv.vn * allow
+tuoitre.vn vinfast.vn * allow
 ubuntuforums.org * frame inherit
 udemy.com * frame inherit
 udemy.com app.link * allow
@@ -1077,6 +1070,8 @@ webcamera.io * frame inherit
 webcamera.io 123apps.com * allow
 webcamera.io ajax.googleapis.com * allow
 webcamera.io userback.io * allow
+wechat.com * frame inherit
+wechat.com qq.com * allow
 weebly.com * frame inherit
 weebly.com ajax.googleapis.com * allow
 weebly.com editmysite.com * allow
@@ -1084,11 +1079,9 @@ weebly.com zbcdn3.net * allow
 weebly.com zotabox.com * allow
 weektoon05.com * frame inherit
 weektoon05.com enginebone.com * allow
-weektoon05.com translate.googleapis.com * allow
 weektoon05.com tumblr.com * allow
 weektoon06.com * frame inherit
 weektoon06.com enginebone.com * allow
-weektoon06.com translate.googleapis.com * allow
 weektoon06.com tumblr.com * allow
 weibo.com * frame allow
 weibo.com alicdn.com * allow

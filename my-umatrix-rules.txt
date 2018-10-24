@@ -3,7 +3,6 @@ matrix-off: about-scheme true
 matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
-matrix-off: github.com true
 matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
 matrix-off: vivaldi-scheme true
@@ -116,6 +115,7 @@ animehay.tv jwplayer.com * allow
 animehay.tv lavanetwork.net * allow
 animetorrents.me * frame inherit
 animetorrents.me ajax.googleapis.com * allow
+animetorrents.me rizon.net * allow
 apple.com * frame inherit
 apple.com cdn-apple.com * allow
 archlinux.org * frame inherit
@@ -309,7 +309,12 @@ deeplearning.ai greenhouse.io * allow
 dektech.com.au * frame inherit
 dektech.com.au bootstrapcdn.com * allow
 dev.to * frame inherit
+dev.to algolia.net * allow
+dev.to algolianet.com * allow
+dev.to api.airbrake.io * allow
 dev.to cloudinary.com * allow
+dev.to facebook.net * allow
+dev.to jwplatform.com * allow
 dev.to practicaldev-herokuapp-com.freetls.fastly.net * allow
 deviantart.com * frame inherit
 deviantart.com deviantart.net * allow
@@ -454,6 +459,9 @@ github.com google.com * allow
 github.com render.githubusercontent.com * allow
 github.com ytimg.com * allow
 github.com zuora.com * allow
+github.community * frame inherit
+github.community cloud.githubusercontent.com * allow
+github.community discourse-cdn-sjc1.com * allow
 gitlab.com * frame inherit
 gitlab.com gitlab-static.net * allow
 gitlab.com gitlab-static.net cookie allow
@@ -519,6 +527,10 @@ hdo.tv dd1cga2rr0zyp.cloudfront.net * allow
 hdo.tv google.com * allow
 hdo.tv hdonline.vn * allow
 hdo.tv vdosupreme.com * allow
+heroku.com * frame inherit
+heroku.com herokucdn.com * allow
+heroku.com vimeo.com * allow
+heroku.com vimeocdn.com * allow
 hidemyass.com * frame inherit
 hidemyass.com av.st * allow
 hidemyass.com avangate.net * allow
@@ -546,6 +558,8 @@ horriblesubs.info sharethis.com * allow
 horriblesubs.info timeanddate.com * allow
 hostgator.com * frame inherit
 hostgator.com ajax.googleapis.com * allow
+huawei.com * frame allow
+huawei.com adobedtm.com * allow
 ibm.com * frame inherit
 ibm.com bluemix.net * allow
 ibm.com mybluemix.net * allow
@@ -562,9 +576,14 @@ ictnews.vn facebook.net * allow
 ictnews.vn imasdk.googleapis.com * allow
 ictnews.vn infonet.vn * allow
 ictnews.vn viam.com.vn * allow
+idc.com * frame inherit
+idc.com d1azc1qln24ryf.cloudfront.net * allow
+idc.com typekit.net * allow
 iflix.com * frame inherit
+iflix.com akamaihd.net * allow
 iflix.com akamaized.net * allow
 iflix.com amazonaws.com * allow
+iflix.com facebook.net * allow
 iflix.com iflixassets.com * allow
 iflix.com rollbar.com * allow
 iflix.com vimondtv.com * allow
@@ -639,6 +658,18 @@ khoai.tv phimhoangu.net * allow
 khoai.tv trothko.com * allow
 khoai.tv vung.tv * allow
 khoai.tv vungtv.com * allow
+kipalog.com * frame inherit
+kipalog.com abs.twimg.com * block
+kipalog.com avatars.githubusercontent.com * allow
+kipalog.com bp.blogspot.com * allow
+kipalog.com fbcdn.net * allow
+kipalog.com fbsbx.com * allow
+kipalog.com github.com * allow
+kipalog.com imgur.com * allow
+kipalog.com pinimg.com * allow
+kipalog.com s3-ap-southeast-1.amazonaws.com * allow
+kipalog.com twimg.com * allow
+kipalog.com want.tf * allow
 kites.vn * frame inherit
 kites.vn bootstrapcdn.com * allow
 koga-fansub.net * frame inherit
@@ -770,6 +801,11 @@ mydigitallife.net * frame inherit
 mydigitallife.net google.com * allow
 myip.ms * frame inherit
 myip.ms maps.googleapis.com * allow
+mystories.vn * frame inherit
+mystories.vn ajax.googleapis.com * allow
+mystories.vn bootstrapcdn.com * allow
+mystories.vn comingsoonpage.com * allow
+mystories.vn unsplash.com * allow
 mystudylife.com * frame inherit
 mystudylife.com gravatar.com * allow
 mystudylife.com typekit.net * allow
@@ -779,9 +815,13 @@ nethd.org google.com * allow
 nethd.org imagebam.com * allow
 nethd.org imgbox.com * allow
 nethd.org imgur.com * allow
+nethd.org media-amazon.com * allow
+nethd.org media-imdb.com * allow
 nethd.org postimg.org * allow
 nethd.org sinhvienit.net * allow
 nethd.org speedtest.net * allow
+nethd.org torviet.com * allow
+nethd.org uhdbits.org * allow
 nethd.org vietnam-ireland.com * allow
 nettruyen.com * frame allow
 nettruyen.com ajax.googleapis.com * allow
@@ -830,6 +870,9 @@ openbuildservice.org disqus.com * allow
 openbuildservice.org open-build-service.org * allow
 openbuildservice.org opensuse.org * allow
 openbuildservice.org vimeo.com * allow
+opennebula.org * frame inherit
+opennebula.org discourse-cdn-sjc2.com * allow
+opennebula.org twimg.com * allow
 opensuse.org * frame inherit
 opensuse.org gravatar.com * allow
 optimumnutrition.com * frame inherit
@@ -949,6 +992,11 @@ resilio.com taxamo.com * allow
 resilio.com trustpilot.com * allow
 resilio.com typekit.net * allow
 resilio.com ytimg.com * allow
+reuters.com * frame inherit
+reuters.com imasdk.googleapis.com * allow
+reuters.com reuters.tv * allow
+reuters.com reutersmedia.net * allow
+reuters.com ytimg.com * allow
 revtechs.me * frame inherit
 revtechs.me wp.com * allow
 rutracker-org.appspot.com * frame inherit
@@ -961,6 +1009,10 @@ rutracker.org robinbob.in * allow
 rutracker.org roskomsvoboda.org * allow
 rutracker.org rublacklist.net * allow
 rutracker.org t-ru.org * allow
+samsung.com * frame inherit
+samsung.com adobedtm.com * allow
+samsung.com bootstrapcdn.com * allow
+samsung.com vnsamsungcampaign.com * allow
 sbs.co.kr * frame inherit
 sbs.co.kr kakao.com * allow
 sbs.co.kr smartmediarep.com * allow
@@ -987,6 +1039,11 @@ sitepoint.com dab1nmslvvntp.cloudfront.net * allow
 sitepoint.com fontawesome.com * block
 sitepoint.com proper.io * allow
 sitepoint.com s3-us-west-2.amazonaws.com * allow
+soha.vn * frame inherit
+soha.vn ajax.googleapis.com * allow
+soha.vn google.com * allow
+soha.vn google.com.vn * allow
+soha.vn vcmedia.vn * allow
 sourceforge.net * frame inherit
 sourceforge.net crsspxl.com * allow
 sourceforge.net fsdn.com * allow
@@ -1016,9 +1073,18 @@ stackexchange.com ajax.googleapis.com * allow
 stackexchange.com gravatar.com * allow
 stackexchange.com imgur.com * allow
 stackexchange.com sstatic.net * allow
+statista.com * frame inherit
+statista.com m6r.eu * allow
+statista.com statcdn.com * allow
+statista.com stripe.com * allow
 steampowered.com * frame inherit
 steampowered.com akamaihd.net * allow
 steampowered.com google.com.vn * allow
+studddent.com * frame inherit
+studddent.com bootstrapcdn.com * allow
+studddent.com dwa5x7aod66zk.cloudfront.net * allow
+studddent.com fontawesome.com * allow
+studddent.com namecheap.com * allow
 subscene.com * frame inherit
 subscene.com jeded.com * allow
 subscene.com keppet.com * allow
@@ -1050,6 +1116,7 @@ telegram.org * frame inherit
 telegram.org t.me * allow
 telegram.org telegram.me * allow
 thegioididong.com * frame inherit
+thegioididong.com ggpht.com * allow
 thegioididong.com tgdd.vn * allow
 thegioididong.com wurfl.io * allow
 thegioididong.com ytimg.com * allow
@@ -1059,6 +1126,7 @@ theverge.com voxmedia.com * allow
 tiki.vn * frame inherit
 tiki.vn alicdn.com * allow
 tiki.vn chart.googleapis.com * allow
+tiki.vn firebaseio.com * allow
 tiki.vn gotadi.com * allow
 tiki.vn ravenjs.com * allow
 tiki.vn sociaplus.com * allow
@@ -1073,6 +1141,9 @@ tistory.com * frame inherit
 tistory.com daum.net * allow
 tistory.com daumcdn.net * allow
 tistory.com kakao.com * allow
+tokyotosho.info * frame inherit
+tokyotosho.info flattr.com * allow
+tokyotosho.info ttcdn2.info * allow
 topcoder.com * frame inherit
 topcoder.com ajax.googleapis.com * allow
 topcoder.com auth0.com * allow
@@ -1094,6 +1165,8 @@ torrentinvites.org imgur.com * allow
 torrentinvites.org postimg.org * allow
 torrentinvites.org yahooapis.com * allow
 torviet.com * frame inherit
+torviet.com adobe.com * allow
+torviet.com ajax.googleapis.com * allow
 torviet.com google.com * allow
 torviet.com someimage.com * allow
 torviet.com ytimg.com * allow
@@ -1176,6 +1249,9 @@ viettel.vn ipv6-test.com * allow
 viettel.vn maps.googleapis.com * allow
 viettel.vn vietteltelecom.vn * allow
 viettelpay.vn * frame inherit
+viettelstore.vn * frame inherit
+viettelstore.vn google.com * allow
+viettelstore.vn viettel.vn * allow
 vietteltelecom.vn * frame inherit
 vietteltelecom.vn ipv6-test.com * allow
 vietteltelecom.vn maps.googleapis.com * allow
@@ -1316,10 +1392,12 @@ youtube.com google.com * allow
 youtube.com google.com.vn * allow
 youtube.com googleusercontent.com * allow
 youtube.com leaddyno.com * allow
+youtube.com maps.googleapis.com * allow
 youtube.com reddit.com * allow
 youtube.com stumbleupon.com * allow
 youtube.com twimg.com * allow
 youtube.com twitter.com * allow
+youtube.com unpkg.com * allow
 youtube.com vidiq.com * allow
 youtube.com www.googleapis.com * allow
 youtube.com youtube.comundefined * allow

@@ -105,6 +105,7 @@ anime47.com * frame inherit
 anime47.com fbcdn.net * allow
 anime47.com openload.co * allow
 animebytes.tv * frame inherit
+animebytes.tv twitter.com * allow
 animehay.tv * frame inherit
 animehay.tv fbcdn.net * allow
 animehay.tv imgur.com * allow
@@ -411,6 +412,9 @@ fireant.vn * frame inherit
 fireant.vn stockbiz.vn * allow
 firefox.com * frame inherit
 firefox.com mozilla.net * allow
+flickr.com * frame inherit
+flickr.com staticflickr.com * allow
+flickr.com yimg.com * allow
 forbes.com * frame inherit
 forbes.com forbesimg.com * allow
 forbes.com gigya.com * allow
@@ -454,7 +458,10 @@ getcloudapp.com daks2k3a4ib2z.cloudfront.net * allow
 getcloudapp.com s3.amazonaws.com * allow
 getcloudapp.com webflow.com * allow
 getlinkaz.com * frame inherit
+getlinkaz.com alexametrics.com * allow
+getlinkaz.com ampproject.org * allow
 getlinkaz.com google.com * allow
+getlinkaz.com googleusercontent.com * allow
 getlinkfshare.com * frame inherit
 getlinkfshare.com linkspaid.com * allow
 getlinkfshare.com linksvip.net * allow
@@ -469,6 +476,7 @@ github.com avatars2.githubusercontent.com * allow
 github.com avatars3.githubusercontent.com * allow
 github.com braintreegateway.com * allow
 github.com camo.githubusercontent.com * allow
+github.com github-production-release-asset-2e65be.s3.amazonaws.com * allow
 github.com githubapp.com * allow
 github.com google.com * allow
 github.com render.githubusercontent.com * allow
@@ -627,6 +635,7 @@ instagram.com facebook.net * allow
 instagram.com fbcdn.net * allow
 investing.com * frame inherit
 investing.com akamaized.net * allow
+investing.com binance.com * allow
 investing.com fbsbx.com * allow
 investing.com forexpros.com * allow
 investing.com google.com * allow
@@ -687,6 +696,10 @@ koga-fansub.net googleusercontent.com * allow
 koga-fansub.net imgur.com * allow
 koga-fansub.net ucoz.net * allow
 kokocon.net * frame allow
+kst.com.vn * frame inherit
+kst.com.vn imgur.com * allow
+kst.com.vn kst.vn * allow
+kst.com.vn paypalobjects.com * allow
 kurthugoschneider.com * frame inherit
 kurthugoschneider.com gumroad.com * allow
 kurthugoschneider.com maps.googleapis.com * allow
@@ -751,6 +764,8 @@ manhuagui.com hamreus.com * allow
 manhuatai.com * frame inherit
 manhuatai.com 321mh.com * allow
 manhuatai.com baidu.com * allow
+mapbox.com * frame inherit
+mapbox.com google.com.vn * allow
 mdbootstrap.com * frame inherit
 mdbootstrap.com chimpstatic.com * allow
 mdbootstrap.com cloudflare.com * allow
@@ -859,6 +874,11 @@ newegg.com sellpoint.net * allow
 newegg.com tiqcdn.com * allow
 newegg.com trustwave.com * allow
 newegg.com turnto.com * allow
+nguyenkim.com * frame inherit
+nguyenkim.com accesstrade.vn * allow
+nguyenkim.com anthill.vn * allow
+nguyenkim.com harafunnel.com * allow
+nguyenkim.com nguyenkimmall.com * allow
 nhaccuatui.com * frame inherit
 nhaccuatui.com jsdelivr.net * allow
 nhaccuatui.com nct.vn * allow
@@ -883,6 +903,9 @@ nsaneforums.com mydigitallife.net * allow
 nsaneforums.com postimg.cc * allow
 nsaneforums.com twimg.com * allow
 nsaneforums.com upload.ee * allow
+okex.com * frame inherit
+okex.com bafang.com * allow
+okex.com zendesk.com * allow
 onlinejudge.org * frame inherit
 onlinejudge.org authedmine.com * allow
 onlinejudge.org s3.amazonaws.com * allow
@@ -896,6 +919,11 @@ openbuildservice.org disqus.com * allow
 openbuildservice.org open-build-service.org * allow
 openbuildservice.org opensuse.org * allow
 openbuildservice.org vimeo.com * allow
+opengapps.org * frame inherit
+opengapps.org apis.google.com * inherit
+opengapps.org github.com * allow
+opengapps.org google.com * allow
+opengapps.org storage.googleapis.com * allow
 opennebula.org * frame inherit
 opennebula.org discourse-cdn-sjc2.com * allow
 opennebula.org twimg.com * allow
@@ -920,6 +948,7 @@ owncloud.org wp.com * allow
 packagecontrol.io * frame inherit
 packagecontrol.io cloudflare.com * allow
 packagecontrol.io d37gvrvc0wt4s1.cloudfront.net * allow
+pastehere.xyz * frame inherit
 paypal.me * frame inherit
 paypal.me paypal.com * allow
 paypal.me paypalobjects.com * allow
@@ -1094,6 +1123,9 @@ stackexchange.com * frame inherit
 stackexchange.com gravatar.com * allow
 stackexchange.com imgur.com * allow
 stackexchange.com sstatic.net * allow
+stamen.com * frame inherit
+stamen.com leafletjs.com * allow
+stamen.com maptiks.com * allow
 statista.com * frame inherit
 statista.com m6r.eu * allow
 statista.com statcdn.com * allow
@@ -1152,6 +1184,8 @@ theverge.com voxmedia.com * allow
 tiki.vn * frame inherit
 tiki.vn alicdn.com * allow
 tiki.vn chart.googleapis.com * allow
+tiki.vn fbcdn.net * allow
+tiki.vn fbsbx.com * allow
 tiki.vn firebaseio.com * allow
 tiki.vn gotadi.com * allow
 tiki.vn ravenjs.com * allow
@@ -1216,6 +1250,16 @@ tuoitre.vn d24rtvkqjwgutp.cloudfront.net * allow
 tuoitre.vn mediacdn.vn * allow
 tuoitre.vn sohatv.vn * allow
 tuoitre.vn vinfast.vn * allow
+twitch.tv * frame inherit
+twitch.tv d2v02itv0y9u9t.cloudfront.net * allow
+twitch.tv d3aqoihi2n8ty8.cloudfront.net * allow
+twitch.tv ext-twitch.tv * allow
+twitch.tv imasdk.googleapis.com * allow
+twitch.tv jtvnw.net * allow
+twitch.tv ttvnw.net * allow
+twitch.tv twitchcdn.net * allow
+twitch.tv twitchsvc.net * allow
+twitch.tv www.twitch.tv * allow
 ubuntuforums.org * frame inherit
 udemy.com * frame inherit
 udemy.com app.link * allow
@@ -1313,6 +1357,12 @@ vultr.com * frame inherit
 vultr.com kaptcha.com * allow
 w3schools.com * frame inherit
 w3schools.com h-bid.com * allow
+wccftech.com * frame inherit
+wccftech.com consensu.org * allow
+wccftech.com disqus.com * allow
+wccftech.com dsh7ky7308k4b.cloudfront.net * allow
+wccftech.com nsstatic.com * allow
+wccftech.com traq.li * allow
 webcamera.io * frame inherit
 webcamera.io 123apps.com * allow
 webcamera.io userback.io * allow
@@ -1384,6 +1434,8 @@ yadi.sk yandex.tm * allow
 yadi.sk yandex.ua * allow
 yadi.sk yandex.uz * allow
 yadi.sk yastatic.net * allow
+yahoo.com * frame inherit
+yahoo.com yimg.com * allow
 youracclaim.com * frame inherit
 youracclaim.com acclaim-production-app.s3.amazonaws.com * allow
 youracclaim.com facebook.net * allow

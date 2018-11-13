@@ -24,8 +24,10 @@ referrer-spoof: behind-the-scene false
 * github.io * allow
 * googlevideo.com * allow
 * gstatic.com * allow
+* imgur.com * allow
 * jquery.com * allow
 * jwpcdn.com * allow
+* maps.googleapis.com * allow
 * raw.githubusercontent.com * allow
 * translate.googleapis.com * allow
 * youtube.com * allow
@@ -87,7 +89,6 @@ alipay.com alicdn.com * allow
 alipay.com alipayobjects.com * allow
 alphaart.vn * frame inherit
 alphaart.vn google.com * allow
-alphaart.vn imgur.com * allow
 alphabooks.vn * frame inherit
 alphabooks.vn antbuddy.com * allow
 alphabooks.vn bizweb.vn * allow
@@ -111,7 +112,6 @@ animebytes.tv * frame inherit
 animebytes.tv twitter.com * allow
 animehay.tv * frame inherit
 animehay.tv fbcdn.net * allow
-animehay.tv imgur.com * allow
 animehay.tv jsdelivr.net * allow
 animehay.tv jwplayer.com * allow
 animehay.tv lavanetwork.net * allow
@@ -202,7 +202,6 @@ cafef.vn mediacdn.vn * allow
 cafef.vn sohatv.vn * allow
 cafef.vn vcmedia.vn * allow
 cartoonchaos.org * frame inherit
-cartoonchaos.org imgur.com * allow
 cartoonchaos.org magpies.net * allow
 cellphones.com.vn * frame inherit
 cellphones.com.vn accesstrade.vn * allow
@@ -344,7 +343,6 @@ dichung.vn airporttaxi.vn * allow
 dichung.vn dichungtaxi.com * allow
 dichung.vn google.com * allow
 dichung.vn iconarchive.com * allow
-dichung.vn maps.googleapis.com * allow
 dienmayxanh.com * frame inherit
 dienmayxanh.com tgdd.vn * allow
 digitalocean.com * frame inherit
@@ -431,7 +429,6 @@ gamevn.com fbcdn.net * allow
 gamevn.com gfycat.com * allow
 gamevn.com giphy.com * allow
 gamevn.com google.com * allow
-gamevn.com imgur.com * allow
 gamevn.com photobucket.com * allow
 gamevn.com photofacefun.com * allow
 gamevn.com pmang.kr * allow
@@ -512,7 +509,6 @@ google.com 224.32.32.31 * allow
 google.com content.googleapis.com * allow
 google.com google.com.vn * allow
 google.com googleusercontent.com * allow
-google.com maps.googleapis.com * allow
 google.com ssl.gstatic.com * allow
 googleblog.com * frame inherit
 googleblog.com blogblog.com * allow
@@ -530,7 +526,6 @@ hackerearth.com go-mpulse.net * allow
 hackerearth.com google.com * allow
 hackerearth.com hackerearth.global.ssl.fastly.net * allow
 hackerearth.com he-s3.s3.amazonaws.com * allow
-hackerearth.com maps.googleapis.com * allow
 hackerearth.com pusher.com * allow
 hackerearth.com pusherapp.com * allow
 hackerearth.com s3-ap-southeast-1.amazonaws.com * allow
@@ -550,7 +545,6 @@ hackerrank.com ravenjs.com * allow
 hackerrank.com s3.amazonaws.com * allow
 hackerrank.com sentry.io * allow
 hako.re * frame inherit
-hako.re imgur.com * allow
 haloshop.vn * frame inherit
 haloshop.vn tawk.to * allow
 hdo.tv * frame inherit
@@ -642,9 +636,6 @@ imdb.com * frame inherit
 imdb.com media-amazon.com * allow
 imdb.com media-imdb.com * allow
 imdb.com ssl-images-amazon.com * allow
-imgur.com * frame inherit
-imgur.com nekudo.com * allow
-imgur.com vntsm.com * allow
 infonet.vn * frame inherit
 infonet.vn imasdk.googleapis.com * allow
 instagram.com * frame inherit
@@ -708,7 +699,6 @@ kipalog.com bp.blogspot.com * allow
 kipalog.com fbcdn.net * allow
 kipalog.com fbsbx.com * allow
 kipalog.com github.com * allow
-kipalog.com imgur.com * allow
 kipalog.com pinimg.com * allow
 kipalog.com s3-ap-southeast-1.amazonaws.com * allow
 kipalog.com twimg.com * allow
@@ -717,11 +707,9 @@ kites.vn * frame inherit
 koga-fansub.net * frame inherit
 koga-fansub.net fbsbx.com * allow
 koga-fansub.net googleusercontent.com * allow
-koga-fansub.net imgur.com * allow
 koga-fansub.net ucoz.net * allow
 kokocon.net * frame allow
 kst.com.vn * frame inherit
-kst.com.vn imgur.com * allow
 kst.com.vn kst.vn * allow
 kst.com.vn paypalobjects.com * allow
 kuaikanmanhua.com * frame inherit
@@ -730,7 +718,6 @@ kuaikanmanhua.com baidu.com * allow
 kuaikanmanhua.com kkmh.com * allow
 kurthugoschneider.com * frame inherit
 kurthugoschneider.com gumroad.com * allow
-kurthugoschneider.com maps.googleapis.com * allow
 laptopsieuben.com * frame inherit
 laptopsieuben.com google.com * allow
 laptopsieuben.com hstatic.net * allow
@@ -774,7 +761,6 @@ live.com outlook.com * allow
 live.com sfx.ms * allow
 live.com sharepointonline.com * allow
 m-team.cc * frame inherit
-m-team.cc imgur.com * allow
 mail.ru * frame inherit
 mail.ru cldmail.ru * allow
 mail.ru imgsmail.ru * allow
@@ -862,7 +848,6 @@ multcloud.com google.com * allow
 mydigitallife.net * frame inherit
 mydigitallife.net google.com * allow
 myip.ms * frame inherit
-myip.ms maps.googleapis.com * allow
 mystories.vn * frame inherit
 mystories.vn comingsoonpage.com * allow
 mystories.vn unsplash.com * allow
@@ -873,7 +858,6 @@ nethd.org * frame inherit
 nethd.org google.com * allow
 nethd.org imagebam.com * allow
 nethd.org imgbox.com * allow
-nethd.org imgur.com * allow
 nethd.org media-amazon.com * allow
 nethd.org media-imdb.com * allow
 nethd.org postimg.org * allow
@@ -928,7 +912,6 @@ nsanedown.com www.googleapis.com * allow
 nsaneforums.com * frame inherit
 nsaneforums.com cloudflare.com * allow
 nsaneforums.com google.com * allow
-nsaneforums.com imgur.com * allow
 nsaneforums.com mydigitallife.net * allow
 nsaneforums.com postimg.cc * allow
 nsaneforums.com twimg.com * allow
@@ -1046,7 +1029,6 @@ readthedocs.io readthedocs.org * allow
 reddit.com * frame inherit
 reddit.com embedly.com * allow
 reddit.com gfycat.com * allow
-reddit.com imgur.com * allow
 reddit.com redd.it * allow
 reddit.com redditmedia.com * allow
 reddit.com redditstatic.com * allow
@@ -1156,7 +1138,6 @@ spotify.com scdn.co * allow
 spotify.com sp-bootstrap.global.ssl.fastly.net * allow
 stackexchange.com * frame inherit
 stackexchange.com gravatar.com * allow
-stackexchange.com imgur.com * allow
 stackexchange.com sstatic.net * allow
 stackoverflow.com * frame inherit
 stackoverflow.com sstatic.net * allow
@@ -1258,7 +1239,6 @@ topitworks.com vietnamworks.com * allow
 torrent-invites.com * frame inherit
 torrentinvites.org * frame inherit
 torrentinvites.org google.com * allow
-torrentinvites.org imgur.com * allow
 torrentinvites.org postimg.org * allow
 torrentinvites.org yahooapis.com * allow
 torviet.com * frame inherit
@@ -1266,7 +1246,6 @@ torviet.com adobe.com * allow
 torviet.com crackwatch.com * allow
 torviet.com google.com * allow
 torviet.com guyspeed.com * allow
-torviet.com imgur.com * allow
 torviet.com nfomation.net * allow
 torviet.com someimage.com * allow
 tradahacking.vn * frame inherit
@@ -1348,7 +1327,6 @@ vietnamworks.com algolianet.com * allow
 vietnamworks.com firebaseio.com * allow
 vietnamworks.com google.com * allow
 vietnamworks.com gravityrd-services.com * allow
-vietnamworks.com maps.googleapis.com * block
 vietnamworks.com www.googleapis.com * allow
 viettablet.com * frame inherit
 viettablet.com apis.google.com * allow
@@ -1356,7 +1334,6 @@ viettablet.com google.com * block
 viettablet.com jsdelivr.net * allow
 viettel.vn * frame inherit
 viettel.vn ipv6-test.com * allow
-viettel.vn maps.googleapis.com * allow
 viettel.vn vietteltelecom.vn * allow
 viettelpay.vn * frame inherit
 viettelstore.vn * frame inherit
@@ -1364,7 +1341,6 @@ viettelstore.vn google.com * allow
 viettelstore.vn viettel.vn * allow
 vietteltelecom.vn * frame inherit
 vietteltelecom.vn ipv6-test.com * allow
-vietteltelecom.vn maps.googleapis.com * allow
 vietteltelecom.vn viettel.vn * allow
 visualstudio.com * frame inherit
 visualstudio.com microsoft.com * allow
@@ -1387,7 +1363,6 @@ voz.vn gfycat.com * allow
 voz.vn google.com * allow
 voz.vn imacdn.com * allow
 voz.vn imgit.me * allow
-voz.vn imgur.com * allow
 voz.vn jsdelivr.net * allow
 voz.vn memeful.com * allow
 voz.vn narvii.com * allow
@@ -1414,7 +1389,6 @@ walmart.com * frame inherit
 walmart.com flippenterprise.net * allow
 walmart.com flyertown.ca * allow
 walmart.com google.com * allow
-walmart.com maps.googleapis.com * allow
 walmart.com wal.co * allow
 walmart.com walmartimages.com * allow
 wccftech.com * frame inherit
@@ -1470,7 +1444,6 @@ xda-developers.com cloudflare.com * allow
 xda-developers.com criteo.net * allow
 xda-developers.com xda-cdn.com * allow
 xebus.vn * frame inherit
-xebus.vn maps.googleapis.com * allow
 yadi.sk * frame inherit
 yadi.sk com.am * allow
 yadi.sk google.com * allow
@@ -1508,7 +1481,6 @@ youtube.com google.com * allow
 youtube.com google.com.vn * allow
 youtube.com googleusercontent.com * allow
 youtube.com leaddyno.com * allow
-youtube.com maps.googleapis.com * allow
 youtube.com reddit.com * allow
 youtube.com stumbleupon.com * allow
 youtube.com twimg.com * allow

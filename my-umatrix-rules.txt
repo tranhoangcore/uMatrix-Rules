@@ -5,6 +5,7 @@ matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
+matrix-off: sharepoint.com true
 matrix-off: vivaldi-scheme true
 matrix-off: wyciwyg-scheme true
 noscript-spoof: * true
@@ -106,6 +107,9 @@ amazon.com d257l1zb7u5fh9.cloudfront.net * allow
 amazon.com media-amazon.com * allow
 amazon.com ssl-images-amazon.com * allow
 anime47.com * frame inherit
+anime47.com apps-320919465053120.apps.fbsbx.com * allow
+anime47.com facebook.com * allow
+anime47.com facebook.net * allow
 anime47.com fbcdn.net * allow
 anime47.com openload.co * allow
 animebytes.tv * frame inherit
@@ -241,6 +245,8 @@ clipanime.com * frame inherit
 clipanime.com fbcdn.net * allow
 clipanime.com imacdn.com * allow
 clipanime.com imasdk.googleapis.com * allow
+cloudflare.com * frame inherit
+cloudflare.com braintreegateway.com * allow
 cloudsfer.com * frame inherit
 cloudsfer.com amcharts.com * allow
 cloudsfer.com aspnetcdn.com * allow
@@ -262,6 +268,13 @@ codechef.com * frame inherit
 codechef.com google.com * allow
 codechef.com s3.amazonaws.com * allow
 codeforces.com * frame inherit
+codepen.io * frame inherit
+codepen.io algolia.com * allow
+codepen.io d3js.org * allow
+codepen.io gravatar.com * allow
+codepen.io s3-us-west-2.amazonaws.com * allow
+codepen.io unpkg.com * allow
+codepen.io wp.com * allow
 codility.com * frame inherit
 codility.com hubspot.net * allow
 codility.com intercom.io * allow
@@ -334,6 +347,9 @@ dev.to cloudinary.com * allow
 dev.to facebook.net * allow
 dev.to jwplatform.com * allow
 dev.to practicaldev-herokuapp-com.freetls.fastly.net * allow
+devhints.io * frame inherit
+devhints.io codefund.io * allow
+devhints.io disqus.com * allow
 deviantart.com * frame inherit
 deviantart.com deviantart.net * allow
 deviantart.com parastorage.com * allow
@@ -422,6 +438,7 @@ forbes.com * frame inherit
 forbes.com forbesimg.com * allow
 forbes.com gigya.com * allow
 freecodecamp.org * frame inherit
+freecodecamp.org medium.com * allow
 freecodecamp.org s3.amazonaws.com * allow
 gamevn.com * frame inherit
 gamevn.com 9cache.com * allow
@@ -471,6 +488,8 @@ getlinkfshare.com unpkg.com * allow
 getlinkfshare.com unsplash.com * allow
 getmega.net * frame inherit
 getmega.net google.com * allow
+giaohangtietkiem.vn * frame inherit
+giaohangtietkiem.vn google.com * allow
 github.com * frame allow
 github.com avatars0.githubusercontent.com * allow
 github.com avatars1.githubusercontent.com * allow
@@ -595,6 +614,8 @@ horriblesubs.info play-asia.com * allow
 horriblesubs.info sharethis.com * allow
 horriblesubs.info timeanddate.com * allow
 hostgator.com * frame inherit
+howtogeek.com * frame inherit
+howtogeek.com disqus.com * allow
 huawei.com * frame allow
 huawei.com adobedtm.com * allow
 ibm.com * frame inherit
@@ -649,6 +670,12 @@ investing.com binance.com * allow
 investing.com fbsbx.com * allow
 investing.com forexpros.com * allow
 investing.com google.com * allow
+isitdownrightnow.com * frame inherit
+isitdownrightnow.com facebook.com * allow
+isitdownrightnow.com fbcdn.net * allow
+isitdownrightnow.com google.com * allow
+isitdownrightnow.com google.com.vn * allow
+isitdownrightnow.com h-bid.com * allow
 itsfoss.com * frame inherit
 itsfoss.com netdna-ssl.com * allow
 itsfoss.com optmnstr.com * allow
@@ -666,6 +693,9 @@ jianshu.com * frame inherit
 jianshu.com baidu.com * allow
 jianshu.com bdstatic.com * allow
 jianshu.com jianshu.io * allow
+jinrimanhua.com * frame inherit
+jinrimanhua.com 517mh.net * allow
+jinrimanhua.com baidu.com * allow
 kaggle.com * frame inherit
 kaggle.com cloudflare.com * allow
 kaggle.com google.com * allow
@@ -709,6 +739,10 @@ koga-fansub.net fbsbx.com * allow
 koga-fansub.net googleusercontent.com * allow
 koga-fansub.net ucoz.net * allow
 kokocon.net * frame allow
+kokocon.net gbposters.com * allow
+kokocon.net gravatar.com * allow
+kokocon.net imgbox.com * allow
+kokocon.net wysibb.com * allow
 kst.com.vn * frame inherit
 kst.com.vn kst.vn * allow
 kst.com.vn paypalobjects.com * allow
@@ -755,8 +789,13 @@ linkvip.info semantic-ui.com * allow
 linkvip.info unpkg.com * allow
 live.com * frame inherit
 live.com akamaihd.net * allow
+live.com gfx.ms * allow
+live.com google.com * allow
+live.com google.com.vn * allow
 live.com microsoft.com * allow
+live.com microsoftonline.com * allow
 live.com msecnd.net * allow
+live.com office.net * allow
 live.com outlook.com * allow
 live.com sfx.ms * allow
 live.com sharepointonline.com * allow
@@ -793,6 +832,11 @@ mediafire.com ravenjs.com * allow
 medium.com * frame inherit
 medium.com cdn.branch.io * allow
 medium.com lightstep.com * allow
+meetabit.com * frame inherit
+meetabit.com cloudinary.com * allow
+meetabit.com embedly.com * allow
+meetabit.com gravatar.com * allow
+meetabit.com intercom.io * allow
 meete.co * frame inherit
 meete.co firebaseio.com * allow
 meete.co meete-20160101-notification.firebaseio.com * allow
@@ -816,9 +860,12 @@ mibbit.com * frame inherit
 mibbit.com google.com * allow
 mibbit.com s3.amazonaws.com * allow
 microsoft.com * frame inherit
+microsoft.com akamaized.net * allow
 microsoft.com azure.net * allow
 microsoft.com azureedge.net * allow
+microsoft.com gfx.ms * allow
 microsoft.com msecnd.net * allow
+microsoft.com s-microsoft.com * allow
 microsoft.com windows.net * allow
 microsoftonline.com * frame inherit
 microsoftonline.com microsoftonline-p.com * allow
@@ -838,6 +885,8 @@ mmo4me.com google.com * allow
 mmo4me.com santienao.com * allow
 mobilecity.vn * frame inherit
 mobilecity.vn google.com * allow
+mozilla.community * frame inherit
+mozilla.community coss-production-media.s3.amazonaws.com * allow
 mozilla.org * frame inherit
 mozilla.org dgxew5xs2vw9e.cloudfront.net * allow
 mozilla.org discourse-paas-production-content.s3.amazonaws.com * allow
@@ -916,6 +965,18 @@ nsaneforums.com mydigitallife.net * allow
 nsaneforums.com postimg.cc * allow
 nsaneforums.com twimg.com * allow
 nsaneforums.com upload.ee * allow
+office.com * frame inherit
+office.com azureedge.net * allow
+office.com footprintdns.com * allow
+office.com live.com * allow
+office.com microsoft.com * allow
+office.com microsoftonline.com * allow
+office.com msedge.net * allow
+office.com msocdn.com * allow
+office.com office.net * allow
+office.com office365.com * allow
+office.com r4.res.office365.com * allow
+office.com sharepoint.com * allow
 okex.com * frame inherit
 okex.com bafang.com * allow
 okex.com zendesk.com * allow
@@ -968,6 +1029,9 @@ paypal.me paypalobjects.com * allow
 pcworld.com.vn * frame inherit
 pcworld.com.vn genieessp.com * allow
 pcworld.com.vn medi-8.net * allow
+pennapps.com * frame inherit
+pennapps.com jsdelivr.net * allow
+pennapps.com vice.com * allow
 phihungmobile.com * frame allow
 phihungmobile.com sharethis.com * allow
 phihungmobile.com unpkg.com * allow
@@ -1060,6 +1124,9 @@ reuters.com reuters.tv * allow
 reuters.com reutersmedia.net * allow
 revtechs.me * frame inherit
 revtechs.me wp.com * allow
+rootnroll.com * frame inherit
+rootnroll.com appzi.io * allow
+rootnroll.com ravenjs.com * allow
 rutracker-org.appspot.com * frame inherit
 rutracker-org.appspot.com 02-dot-com-rt.appspot.com * allow
 rutracker-org.appspot.com robinbob.in * allow
@@ -1089,6 +1156,20 @@ send-anywhere.com stripe.com * allow
 send-anywhere.com zendesk.com * allow
 sharepoint.com * frame inherit
 sharepoint.com akamaihd.net * allow
+sharepoint.com azureedge.net * allow
+sharepoint.com footprintdns.com * allow
+sharepoint.com live.com * allow
+sharepoint.com live.net * block
+sharepoint.com microsoft.com * allow
+sharepoint.com microsoftonline.com * allow
+sharepoint.com msedge.net * allow
+sharepoint.com msocdn.com * allow
+sharepoint.com office.com * allow
+sharepoint.com office.net * allow
+sharepoint.com office365.com * allow
+sharepoint.com sharepointonline.com * allow
+sharepoint.com skype.com * allow
+sharepoint.com windows.net * allow
 shopee.vn * frame inherit
 shopee.vn akamaihd.net * allow
 shopee.vn shopeemobile.com * allow
@@ -1293,6 +1374,9 @@ twitch.tv www.twitch.tv * allow
 twitter.com * frame inherit
 twitter.com twimg.com * allow
 ubuntuforums.org * frame inherit
+udacity.com * frame inherit
+udacity.com bugsnag.com * allow
+udacity.com s3.amazonaws.com * allow
 udemy.com * frame inherit
 udemy.com app.link * allow
 udemy.com getsentry.com * allow
@@ -1309,6 +1393,9 @@ upcase.com upcase.s3.amazonaws.com * allow
 uphinhnhanh.com * frame inherit
 uphinhnhanh.com ads3-adnow.com * allow
 uphinhnhanh.com optad360.io * allow
+upload4earn.org * frame inherit
+upload4earn.org google.com * allow
+upload4earn.org googleusercontent.com * allow
 uvaquest.blogspot.com * frame inherit
 uvaquest.blogspot.com blogblog.com * allow
 uvaquest.blogspot.com blogger.com * allow
@@ -1343,8 +1430,11 @@ vietteltelecom.vn * frame inherit
 vietteltelecom.vn ipv6-test.com * allow
 vietteltelecom.vn viettel.vn * allow
 visualstudio.com * frame inherit
+visualstudio.com ghbtns.com * allow
 visualstudio.com microsoft.com * allow
+visualstudio.com msecnd.net * allow
 visualstudio.com s-microsoft.com * allow
+visualstudio.com tiqcdn.com * allow
 visualstudio.com vsassets.io * allow
 vn-zoom.com * frame inherit
 vn-zoom.com cdn-image75.rhcloud.com * allow
@@ -1444,6 +1534,13 @@ xda-developers.com cloudflare.com * allow
 xda-developers.com criteo.net * allow
 xda-developers.com xda-cdn.com * allow
 xebus.vn * frame inherit
+xiki.org * frame inherit
+xoi.tv * frame inherit
+xoi.tv fontawesome.com * allow
+xoi.tv jwplayer.com * allow
+xoi.tv vegacdn.com * allow
+xoi.tv vegacdn.vn * allow
+xoi.tv waust.at * allow
 yadi.sk * frame inherit
 yadi.sk com.am * allow
 yadi.sk google.com * allow
